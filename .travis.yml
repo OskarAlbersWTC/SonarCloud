@@ -9,4 +9,4 @@ addons:
       secure: b30308462d57f1480d11398152cb72fa2edc9bd2
 
 script:
-  - mvn clean verify sonar:sonar
+  - mvn clean verify pmd:pmd sonar:sonar
