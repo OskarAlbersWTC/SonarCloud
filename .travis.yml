@@ -7,8 +7,7 @@ addons:
     organization: OskarAlbersWTC
     token:
       secure: b30308462d57f1480d11398152cb72fa2edc9bd2
-jdk:
-  - oraclejdk8
+
 
 script:
   - mvn clean verify sonar:sonar
