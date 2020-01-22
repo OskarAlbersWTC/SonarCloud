@@ -10,4 +10,8 @@ public class SpringcloudApplication {
 		SpringApplication.run(SpringcloudApplication.class, args);
 	}
 
+
+	public void test(){
+
+	}
 }
